@@ -3,5 +3,11 @@
     "description": "",
     "keywords": "",
     "author": "Muhammed Furkan AYDIN <furkan@mugsoft.io>",
-    "": ""
+    "page": {
+        "contact_us": "Contact Us",
+        "hero_title": "FREE YOUR MIND",
+        "hero_description": "Mugsoft offers to customers, fastest way to develop games.",
+        "about_us_title": "Welcome to Mugsoft,",
+        "about_us_text": "We’ll Deliver the best stories and ideas on the topics you care about most straight to your homepage, app, or gamess."
+    }
 }
