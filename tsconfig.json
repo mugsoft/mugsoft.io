@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "noImplicitAny": true,                
+		"strictNullChecks": true,             
+		"strictFunctionTypes": true,          
+		"strictBindCallApply": true,          
+		"strictPropertyInitialization": true, 
+		"noImplicitThis": true,               
+		"alwaysStrict": true,                 
+		"noUnusedLocals": true,               
+		"noUnusedParameters": true,           
+		"noImplicitReturns": true,            
+		"noFallthroughCasesInSwitch": true, 
+        "removeComments": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "lib": ["ES2016", "DOM"],
+        "module": "commonjs",
+        
+    },
+    "baseUrl": "types",
+    "typeRoots": ["types"]
+}

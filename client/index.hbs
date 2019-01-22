@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	{{> ./components/head.hbs}}
+</head>
+
+<body>
+	<section class="topbar">
+		<div class="container row between-xs middle-xs">
+			<div class="logo">
+				<img src="./images/logo.svg" alt="logo">
+			</div>
+			<div class="menu">
+				<ul class="nav">
+					<li>
+						<a href="#contact-us" class="btn btn-primary">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="header">
+		<div class="container">
+			<div class="row center-xs middle-xs">
+				<div class="col-xs-12">
+					<img src="./images/header-bg.png" class="hero-img" alt="header">
+				</div>
+				<div class="col-xs-12">
+					<div class="hero-content">
+						<h1>FREE YOUR MIND</h1>
+						<p>Mugsoft offers to customers, fastest way to develop games.</p>
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<ul class="client">
+						<li>
+							<img class="img-fluid" src="./images/clients/1.png" alt="Client">
+						</li>
+						<li>
+							<img class="img-fluid" src="./images/clients/2.png" alt="Client">
+						</li>
+						<li>
+							<img class="img-fluid" src="./images/clients/3.png" alt="Client">
+						</li>
+						<li>
+							<img class="img-fluid" src="./images/clients/4.png" alt="Client">
+						</li>
+						<li>
+							<img class="img-fluid" src="./images/clients/5.png" alt="Client">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="about-us" id="about-us">
+		<div class="container">
+			<div class="row center-xs middle-xs">
+				<div class="col-xs-12">
+					<h2>Welcome to Mugsoft,</h2>
+					<p>We’ll Deliver the best stories and ideas on the topics you care about most straight to your homepage, app, or gamess.</p>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 col-12">
+					<div class="technology">
+						<div class="icon">
+							<img src="./images/icons/html5.png" alt="html5">
+						</div>
+						<h3>HTML 5</h3>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 col-12">
+					<div class="technology">
+						<div class="icon">
+							<img src="./images/icons/css3.png" alt="css3">
+						</div>
+						<h3>CSS 3</h3>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 col-12">
+					<div class="technology">
+						<div class="icon">
+							<img src="./images/icons/js.png" alt="js">
+						</div>
+						<h3>Javascript</h3>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 col-12">
+					<div class="technology">
+						<div class="icon">
+							<img src="./images/icons/golang.png" alt="golang">
+						</div>
+						<h3>GoLang</h3>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 col-12">
+					<div class="technology">
+						<div class="icon">
+							<img src="./images/icons/nodejs.png" alt="">
+						</div>
+						<h3>Nodejs</h3>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 col-12">
+					<div class="technology">
+						<div class="icon">
+							<img src="./images/icons/rust.png" alt="">
+						</div>
+						<h3>Rust</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="services">
+		<div class="container">
+			<div class="row center-xs middle-xs">
+				<div class="col-lg-6 col-md-6 col-xs-12 col-12">
+					<ul class="service-list">
+						<li>
+							<div class="icon">
+								<img src="./images/icons/f1.png" alt="icon">
+
+							</div>
+							<div class="service-content">
+								<h3>Client Support</h3>
+								<p>Team hangouts and instant text messaging right from the dashboard.</p>
+							</div>
+						</li>
+						<li>
+							<div class="icon">
+								<img src="./images/icons/f4.png" alt="icon">
+							</div>
+							<div class="service-content">
+								<h3>Secure Servers</h3>
+								<p>Team hangouts and instant text messaging right from the dashboard.</p>
+							</div>
+						</li>
+						<li>
+							<div class="icon">
+								<img src="./images/icons/f11.png" alt="icon">
+							</div>
+							<div class="service-content">
+								<h3>Product Feedback</h3>
+								<p>Team hangouts and instant text messaging right from the dashboard.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-6 col-md-6 col-xs-12 col-12">
+                    <img class="services-bg" src="./images/services.png" alt="service-bg">
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row center-xs middle-xs">
+				<div class="col-xs-12">
+					<h4>Start now and turn your online business into a profitable route.</h4>
+				</div>
+				<form action="/api/contact" method="POST" autocomplete="off" class="col-xs-12">
+					<div class="form-group">
+						<input type="text" name="email" class="form-input" placeholder="Enter your email address" autocomplete="off">
+					</div>
+					<div class="form-group">
+						<textarea type="text" name="message" class="form-input" placeholder="Enter your message" autocomplete="off"></textarea>
+					</div>
+					<div class="form-group">
+						<button class="btn btn-primary" type="submit">
+							Send
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
