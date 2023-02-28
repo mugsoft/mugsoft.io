@@ -33,7 +33,7 @@
     "imagemin-pngquant": "^5.0.1",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
-    "mocha": "^5.2.0",
+    "mocha": "^10.2.0",
     "pngquant-bin": "^3.1.1",
     "socket.io-client": "^2.2.0",
     "style-loader": "^0.23.1",
